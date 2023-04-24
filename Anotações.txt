@@ -1,0 +1,25 @@
+Comentários
+
+// uma única linha
+
+/* */ mais de uma linha de código
+
+Informações
+
+No JavaScript moderno, além de utilizar o palavra var, também podemos usar a palavra let
+
+As 3 formas de delimitar uma string são: "Eduardo" , 'Eduardo', `Eduardo`
+Obs.: Há uma diferença entre cada uma delas
+
+O nome de cada variável chamamos de identificador, mas precisa seguir as regras abaixo:
+Não podemos criar uma variável com palavras que o JS utiliza como comando:
+function, var, etc...
+
+Tipos primitivos / Data Types:
+
+5, 18, -12 | Números inteiros
+0.5, -15.9, 3.14, 8.0 | Números reais, floats
+true, false | boolean
+"Google", 'JavaScript', `Maria` | Strings
+
+Para saber o tipo primitivo de uma variável, basta utilizar o typeof variável
