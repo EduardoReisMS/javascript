@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Primeiros passos com DOM</title>
+    <style>
+        body {
+            background-color: aquamarine;
+            color: white;
+            font: normal 18pt Arial;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>DOM</h1>
+    <p>Aqui vai o resultado</p>
+    <p>Aprendendo a usar o <strong>DOM</strong> em JavaScript</p>
+    <div id="msg">Clique</div>
+    <script>
+        var p1 = document.getElementsByTagName('p')[1]
+        // Criei uma variável para pegar a primeira tag "p" do meu documento. Para selecionar a primeira tag, coloquei o valor entre [], sendo 0 o primeiro, 1 o segundo e assim por diante
+        var corpo = document.body
+
+        p1.style.color = 'black'
+        corpo.style.background = 'darkgray'
+
+        document.write('O primeiro parágrafo está escrito com isso: ' + p1.innerText + '<br>')
+        document.write('Agora o mesmo parágrafo está com toda a formatação: ' + p1.innerHTML)
+        // Utilizei o innerHTML para puxar toda a formatação do parágrafo, algo que o text não consegue; Um exemplo disso foi o negrito que não apareceu no exemplo acima
+
+        // alert(p1.innerText)
+
+        var d = window.document.getElementById('msg')
+        document.write('<br>' + msg.innerText)
+        d.innerText = 'Estou aguardando'
+        // A linha acima serve para alterar o conteúdo escrito na tag Div
+
+        var outrod = document.querySelector('div#msg')
+    </script>
+</body>
+</html>
