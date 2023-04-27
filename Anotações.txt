@@ -27,3 +27,4 @@ Para saber o tipo primitivo de uma variável, basta utilizar o typeof variável
 Em Operadores Aritméticos, a % é o resto da divisão inteira.
  //, a ** é potência
 
+DOOM:
