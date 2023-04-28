@@ -4,9 +4,38 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Nacionalidade</title>
+    <style>
+        body {
+            background-color: beige;
+            text-align: center;
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        input {
+            border-radius: 7px;
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
-    
+    <h1>Em qual País você nasceu?</h1>
+    <input type="text" name="pais" id="pais">
+    <input type="button" value="Pesquisar" onclick="consultar()">
+    <div id="res">
+
+    </div>
+
+    <script>
+        function consultar() {
+            var txtpais = document.querySelector('input#pais')
+            var res = document.querySelector('div#res')
+            var nasceu = (txtpais.value)
+            res.innerHTML = `<p>Você nasceu em: <strong>${nasceu}</strong></p>`
+            if (nasceu == 'Brasil') {
+                res.innerHTML += '<p>Você é <strong>Brasileiro!</strong></p>'
+            }
+        }
+    </script>
 </body>
 </html>
