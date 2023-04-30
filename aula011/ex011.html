@@ -34,6 +34,10 @@
             res.innerHTML = `<p>Você nasceu em: <strong>${nasceu}</strong></p>`
             if (nasceu == 'Brasil') {
                 res.innerHTML += '<p>Você é <strong>Brasileiro!</strong></p>'
+            } else {
+                if (nasceu == 'EUA') {
+                    res.innerHTML += '<p>You are gringo'
+                }
             }
         }
     </script>

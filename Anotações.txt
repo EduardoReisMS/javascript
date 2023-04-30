@@ -28,3 +28,8 @@ Em Operadores Aritméticos, a % é o resto da divisão inteira.
  //, a ** é potência
 
 DOOM:
+
+
+console.logo('') para escrever no console
+
+Quando utilizado o switch, é necessário sempre o uso do 'break' no final do case
