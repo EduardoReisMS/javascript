@@ -33,3 +33,8 @@ DOOM:
 console.logo('') para escrever no console
 
 Quando utilizado o switch, é necessário sempre o uso do 'break' no final do case
+
+Estrutura de Repetição:
+
+While => Estrutura de repetição com o teste lógico no ínicio
+Pesquisar sobre o modo de Depuração
