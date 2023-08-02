@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
-    <title>Modelo de Exercício</title>
+    <title>Tabuada</title>
 </head>
 <body>
     <header>
@@ -13,16 +13,12 @@
     </header>
         <section>
             <div>
-                <p>
-                    Tabuada de:
-                    <input type="number" name="" id="n1">
-                </p>
-                <p>
-                    <input type="submit" value="Multiplicar" onclick="mult()">
-                </p>
+                <p>Número: <input type="number" name="num" id="txtn"></p> <input type="button" value="Gerar Tabuada" onclick="tabuada()"> 
             </div>
-            <div id="res">
-        
+            <div>
+                <select name="tabuada" id="seltab" size="10">
+                    <option value="">Digite um número acima</option>
+                </select>
             </div>
         </section>
     <footer>
