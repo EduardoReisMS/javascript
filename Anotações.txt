@@ -38,3 +38,17 @@ Estrutura de Repetição:
 
 While => Estrutura de repetição com o teste lógico no ínicio
 Pesquisar sobre o modo de Depuração
+
+Variáveis:
+
+Variáveis somples só conseguem armazenar um valor por vez;
+ 
+Variáveis compostas devem ser capazes de armazenar vários valores em uma mesma estrutura.
+
+Um array/vetor/variável composta é uma variável que contém vários elementos, cada elemento composto por seu valor e por uma chave de identificação. Um "array vetor" é uma variável composta por vários espaços; Um elemento de um vetor é um par que agrupa o espaço da memória, valor e índice; O índice é o mesmo que chave/keys; Conteúdo do array.
+
+
+Funções: 
+
+- São ações executadas assim que são chamadas ou em decorrência de algum evento;
+- Uma função pode receber parâmetros e retornar um resultado.
