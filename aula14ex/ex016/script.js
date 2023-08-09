@@ -30,22 +30,3 @@ function contar() {
         resultado.innerHTML += `🏁`
     }
 }
-// function contar() {
-//     var n1 = document.querySelector('#inicio')
-//     var n2 = document.querySelector('#fim')
-//     var n3 = document.querySelector('#salto')
-//     var resultado = document.querySelector('#res')
-//     var primeiro = Number(n1.value)
-//     var segundo = Number(n2.value)
-//     var salto = Number(n3.value)
-//     if (n3.value == 0) {
-//         alert('[ERRO] Escolha algum valor para o "Passo" acima de 0')
-//     } else if (n2.value == '') {
-//         alert('[ERRO] Campo "Fim" vazio. Escolha algum valor acima de 0')
-//     } else {
-//         while (primeiro <= segundo) {
-//             resultado.innerHTML += primeiro
-//             primeiro = primeiro + salto
-//         }
-//     }
-// }
